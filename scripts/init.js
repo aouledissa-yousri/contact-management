@@ -1,0 +1,1 @@
+if(localStorage.getItem("id") === null) localStorage.setItem("id", 0)

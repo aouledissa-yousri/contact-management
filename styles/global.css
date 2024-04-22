@@ -1,0 +1,36 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    color: white
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    height: 100px; /* Set the height of the container */
+}
+
+
+.contact-list, .details {
+    background-color: rgba(128, 128, 128, 0.548);
+    border-radius: 10px;
+    width: 48%
+}
+
+.details {
+    height: fit-content;
+    float: right;
+}
+
+.contact {
+    color: white;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact:hover {
+    background-color: orange;
+}
